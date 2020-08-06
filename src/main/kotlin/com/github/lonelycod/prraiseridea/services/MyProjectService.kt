@@ -1,7 +1,7 @@
-package com.github.lonely-cod.prraiseridea.services
+package com.github.lonelycod.prraiseridea.services
 
 import com.intellij.openapi.project.Project
-import com.github.lonely-cod.prraiseridea.MyBundle
+import com.github.lonelycod.prraiseridea.MyBundle
 
 class MyProjectService(project: Project) {
 

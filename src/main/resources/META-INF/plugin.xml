@@ -1,5 +1,5 @@
 <idea-plugin>
-    <id>com.github.lonely-cod.prraiseridea</id>
+    <id>com.github.lonelycod.prraiseridea</id>
     <name>pr-raiser-idea</name>
     <vendor>lonely-cod</vendor>
 
@@ -8,12 +8,19 @@
     <depends>com.intellij.modules.platform</depends>
 
     <extensions defaultExtensionNs="com.intellij">
-        <applicationService serviceImplementation="com.github.lonely-cod.prraiseridea.services.MyApplicationService"/>
-        <projectService serviceImplementation="com.github.lonely-cod.prraiseridea.services.MyProjectService"/>
+<!--        <applicationService serviceImplementation="com.github.lonelycod.prraiseridea.services.MyApplicationService"/>-->
+<!--        <projectService serviceImplementation="com.github.lonelycod.prraiseridea.services.MyProjectService"/>-->
     </extensions>
 
     <projectListeners>
-        <listener class="com.github.lonely-cod.prraiseridea.listeners.MyProjectManagerListener"
-                  topic="com.intellij.openapi.project.ProjectManagerListener"/>
+<!--        <listener class="com.github.lonelycod.prraiseridea.listeners.MyProjectManagerListener"-->
+<!--                  topic="com.intellij.openapi.project.ProjectManagerListener"/>-->
     </projectListeners>
+
+    <actions>
+        <group id = "Pr.Button" description="Pr Action" text="RaisePR">
+            <add-to-group group-id="MainMenu" anchor="last"/>
+            <action class="com.github.lonelycod.prraiseridea.action.A2" id = "Pr.Action1" text="Hello"/>
+        </group>
+    </actions>
 </idea-plugin>

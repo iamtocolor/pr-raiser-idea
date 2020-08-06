@@ -1,4 +1,4 @@
-package com.github.lonely-cod.prraiseridea
+package com.github.lonelycod.prraiseridea
 
 import com.intellij.AbstractBundle
 import org.jetbrains.annotations.NonNls

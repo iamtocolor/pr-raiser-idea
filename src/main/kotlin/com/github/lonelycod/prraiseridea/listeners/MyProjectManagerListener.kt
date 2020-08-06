@@ -1,8 +1,8 @@
-package com.github.lonely-cod.prraiseridea.listeners
+package com.github.lonelycod.prraiseridea.listeners
 
 import com.intellij.openapi.project.Project
 import com.intellij.openapi.project.ProjectManagerListener
-import com.github.lonely-cod.prraiseridea.services.MyProjectService
+import com.github.lonelycod.prraiseridea.services.MyProjectService
 
 internal class MyProjectManagerListener : ProjectManagerListener {
 
