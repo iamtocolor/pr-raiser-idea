@@ -1,6 +1,6 @@
-package org.jetbrains.plugins.template.services
+package com.github.lonely-cod.prraiseridea.services
 
-import org.jetbrains.plugins.template.MyBundle
+import com.github.lonely-cod.prraiseridea.MyBundle
 
 class MyApplicationService {
 
